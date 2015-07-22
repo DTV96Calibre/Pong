@@ -19,7 +19,7 @@ var scoreRight = 0
 #difficulty multiplier
 var difficultyMult = 1
 #speed of the ball (in pixels/second)
-var ball_speed = 80
+var ball_speed = 100
 
 #direction of the ball (normal vector)
 var direction = Vector2(-1,0)
