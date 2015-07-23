@@ -1,9 +1,15 @@
-::res://::1437537746
+::res://::1437613078
 ball.tex::ImageTexture::1425353397::texture_2d<>../assets/ball.png<>4219e9084f5485c8d1812297700f317d<>1387233244
+bullet.scn::PackedScene::1437607473::
 icon.png::ImageTexture::1425352858::
 left_pallete.tex::ImageTexture::1425353109::texture_2d<>../assets/left_pallete.png<>df76627349499ad47ebf48a7ca947cca<>1387233173
-main.gd::GDScript::1437537746::
-main.scn::PackedScene::1437537589::
+main.gd::GDScript::1437613078::
+main.scn::PackedScene::1437609300::
 orena.fnt::Font::1425358333::font<>../../Fonts/Orena solo mayusculas.ttf<>4396264c07a6d8febfa2703dd4742734<>1338837828
 right_pallete.tex::ImageTexture::1425353158::texture_2d<>../assets/right_pallete.png<>d46f647d3f045dbee4d786089c309868<>1387233198
 separator.tex::ImageTexture::1425353511::texture_2d<>../assets/separator.png<>b6234b89455156532bbe1256249fcfd4<>1387233336
+::res://Audio::1437612355
+Ambience_Monitor_Static_Loop_00.smp::Sample::1437612355::
+Whoosh_Electric_00.smp::Sample::1437612299::sample<>../../../Downloads/Electric Sound Library/Wav/Whoosh_Electric/Whoosh_Electric_00.wav<>8d443f94b5842869f36adb9c9d7b0290<>1431708810
+::res://assets::1437606308
+spr_bullet_strip.tex::ImageTexture::1437606308::texture_2d<>../../../Pictures/Assets/spr_bullet_strip.png<>88bf6de8d074b38748a535ca5a102957<>1437606201
