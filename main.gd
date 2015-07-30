@@ -12,7 +12,7 @@ func _ready():
 	screen_size = get_viewport_rect().size
 	pad_size = get_node("left").get_texture().get_size()
 	pad_height = get_node("left").get_texture().get_height()
-	get_node("ball").get_pos()=screen_size*0.5 #ball goes to screen center
+	get_node("ball").get_pos() = screen_size*0.5 #ball goes to screen center
 	set_process(true)
 #score variables
 var scoreLeft = 0
