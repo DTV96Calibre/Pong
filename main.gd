@@ -12,7 +12,7 @@ func _ready():
 	screen_size = get_viewport_rect().size
 	pad_size = get_node("left").get_texture().get_size()
 	pad_height = get_node("left").get_texture().get_height()
-	get_node("ball").get_pos() = screen_size*0.5 #ball goes to screen center
+	get_node("ball").set_pos(screen_size*0.5) #ball goes to screen center
 	set_process(true)
 #score variables
 var scoreLeft = 0
@@ -52,7 +52,7 @@ func _process(delta):
 		ball_pos=screen_size*0.5 #ball goes to screen center
 		ball_speed=80*difficultyMult
 		direction=Vector2(-1,0)
-	get_node("ball").set_pos(ball_pos)
+	get_node("ball").set_pos(ball_pos) ########################
     #move left pad  
 	var left_pos = get_node("left").get_pos()
 
