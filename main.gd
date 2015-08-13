@@ -56,9 +56,9 @@ func _process(delta):
     #move left pad  
 	var left_pos = get_node("left").get_pos()
 
-	if (left_pos.y > 0 + pad_height/2 and Input.is_action_pressed("left_move_up")):
+	if (left_pos.y > 0 + pad_height/2 and (Input.is_action_pressed("left_move_up") or get_node("leftLeftButton").is_pressed())):
 		left_pos.y+=-PAD_SPEED*delta
-	if (left_pos.y < screen_size.y - pad_height/2 and Input.is_action_pressed("left_move_down")):
+	if (left_pos.y < screen_size.y - pad_height/2 and (Input.is_action_pressed("left_move_down") or get_node("leftRightButton").is_pressed())):
 		left_pos.y+=PAD_SPEED*delta
 
 	get_node("left").set_pos(left_pos)
@@ -66,9 +66,9 @@ func _process(delta):
     #move right pad 
 	var right_pos = get_node("right").get_pos()
 
-	if (right_pos.y > 0 + pad_height/2 and Input.is_action_pressed("right_move_up")):
+	if (right_pos.y > 0 + pad_height/2 and (Input.is_action_pressed("right_move_up") or get_node("rightRightButton").is_pressed())):
 		right_pos.y+=-PAD_SPEED*delta
-	if (right_pos.y < screen_size.y - pad_height/2 and Input.is_action_pressed("right_move_down")):
+	if (right_pos.y < screen_size.y - pad_height/2 and (Input.is_action_pressed("right_move_down") or get_node("rightLeftButton").is_pressed())):
 		right_pos.y+=PAD_SPEED*delta
 
 	get_node("right").set_pos(right_pos)
