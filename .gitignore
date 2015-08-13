@@ -1,4 +1,6 @@
 *.keystore
+.fscache
+.gitignore~
 # Compiled source #
 ###################
 *.com
